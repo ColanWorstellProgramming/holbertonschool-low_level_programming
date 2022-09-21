@@ -43,8 +43,6 @@ nxf[] = (nx2, "and is less than 6 and not 0")
 
 }
 
-}
-
 char nxf2[] = (nfx, '\n')
 
 snprintf(nxf2);
