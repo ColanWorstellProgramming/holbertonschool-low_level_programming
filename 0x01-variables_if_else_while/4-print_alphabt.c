@@ -5,7 +5,7 @@
  *Return: ends file
  */
 
-int main (void)
+int main(void)
 {
 
 char x;
