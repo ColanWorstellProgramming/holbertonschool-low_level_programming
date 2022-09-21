@@ -18,7 +18,7 @@ if (n <= 98)
 while (n <= 98)
 {
 printf("%d\n", n);
-n++
+n++;
 }
 
 }
@@ -28,7 +28,7 @@ if (n >= 98)
 while (n >= 98)
 {
 printf("%d\n", n)
-n--
+n--;
 }
 }
 }
