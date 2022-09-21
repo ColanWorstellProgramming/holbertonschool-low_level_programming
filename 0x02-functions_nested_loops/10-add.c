@@ -8,9 +8,9 @@
  * Return: - | ends file
  */
 
-int add(add, add)
+int add(int i, int x)
 {
 
-return (add + add);
+return (i + x);
 
 }
