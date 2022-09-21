@@ -21,7 +21,7 @@ for (x = 0; x < 10; x++)
 
 if (x == 10)
 {
-printf("%d", x * y);
+printf("%dtest", x * y);
 }
 else
 {
