@@ -13,14 +13,16 @@ void times_table(void)
 
 int x, y;
 
-for (x = 0; x < 10; x++)
-{
-printf("0,  ");
-}
-
 for (y = 0; y < 10; y++)
 {
-printf("%d,  ",y*1);
+
+for (x = 0; x < 10; x++)
+{
+printf("%d,  ", x * y );
+}
+
+printf("\n");
+
 }
 
 }
