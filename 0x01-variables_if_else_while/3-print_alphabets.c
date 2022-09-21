@@ -9,6 +9,7 @@ int main(void)
 {
 
 char i;
+char y;
 
 for (i = 'a'; i <= 'z'; i++)
 {
@@ -16,8 +17,6 @@ for (i = 'a'; i <= 'z'; i++)
 putchar(i);
 
 }
-
-char y;
 
 for (y = 'A'; y <= 'Z'; y++)
 {
