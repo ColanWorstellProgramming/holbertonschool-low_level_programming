@@ -16,7 +16,7 @@ srand(time(0));
 
 n = rand() - RAND_MAX / 2;
 
-String nx = '"Last digit of " + n + "is "'
+char nx[] = '"Last digit of " + n + "is "'
 
 if (n > 5)
 
