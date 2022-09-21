@@ -37,7 +37,7 @@ if ((n - 1) < 98)
 {
 printf("%d", n);
 n--;
-printf("%d");
+printf("\n");
 }
 else
 {
