@@ -8,7 +8,7 @@
  * Return: - | ends file
  */
 
-void _islower(void)
+int _islower(void)
 {
 
 if (c >= 'a' && c <= 'z')
