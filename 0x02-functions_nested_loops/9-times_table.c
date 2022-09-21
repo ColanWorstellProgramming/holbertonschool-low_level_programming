@@ -19,7 +19,7 @@ for (y = 0; y < 10; y++)
 for (x = 0; x < 10; x++)
 {
 
-if (x = 10)
+if (x == 10)
 {
 printf("%d", x * y);
 }
