@@ -4,7 +4,7 @@
 #include "main.h"
 
 /**
- * main - | starts file
+ * print_alphabet_10x - | starts file
  * Return: - | ends file
  */
 
