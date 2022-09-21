@@ -18,9 +18,16 @@ for (y = 0; y < 10; y++)
 
 for (x = 0; x < 10; x++)
 {
+
+if (x * y > 9)
+{
+printf("%d, ", x * y );
+}
+else
+{
 printf("%d,  ", x * y );
 }
-
+}
 printf("\n");
 
 }
