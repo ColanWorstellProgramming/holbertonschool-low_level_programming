@@ -3,8 +3,8 @@
 #include <time.h>
 
 /**
- * main | starts file
- * Return: | ends file
+ * main - | starts file
+ * Return: - | ends file
  */
 
 int main(void)
