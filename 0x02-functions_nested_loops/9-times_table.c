@@ -15,7 +15,7 @@ int x, y;
 
 for (x = 0; x < 10; x++)
 {
-printf('0,  ');
+printf("0,  ");
 }
 
 for (y = 0; y < 10; y++)
