@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * 4
+ * main - main function
  */
 
 int main(void)
