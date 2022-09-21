@@ -11,15 +11,15 @@
 void jack_bauer(void)
 {
 
-int min, hour;
+int hour, min
+
+for (hour = 0; hour < 24; hour++)
+{
 
 for (min = 0; min < 60; min++)
 {
 
-for (hour = 0; hour < 60; hour++)
-{
-
-printf("%02d:%02d\n", min, hour);
+printf("%02d:%02d\n", hour, min);
 
 }
 
