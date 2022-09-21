@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/**i
+/**
  *main - starts file
  *Return: ends file
  */
@@ -12,11 +12,11 @@ char x;
 
 for(x = 'a'; x <= 'z'; x++)
 {
-if(x!='e' && x!='q')
+if(x != 'e' && x!= 'q')
 {
-putchar(x);
+putchar (x);
 }
 }
-putchar('\n');
+putchar ('\n');
 return (0);
 }
