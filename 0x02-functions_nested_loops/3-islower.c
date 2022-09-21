@@ -5,6 +5,7 @@
 
 /**
  * _islower - | starts file
+ * @c - | int
  * Return: - | ends file
  */
 
