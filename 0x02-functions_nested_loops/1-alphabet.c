@@ -16,10 +16,10 @@ char x;
 for ( x = 'a'; x <= 'z'; x++)
 {
 
-__putchar(x);
+_putchar(x);
 
 }
 
-__putchar('\n');
+_putchar('\n');
 
 }
