@@ -26,6 +26,7 @@ else
 printf("%d, ", n);
 n++;
 }
+printf("\n");
 }
 
 else
