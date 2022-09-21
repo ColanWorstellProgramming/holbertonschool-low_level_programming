@@ -25,7 +25,7 @@ printf("%d", x * y);
 }
 else
 {
-if (x * y > 9)
+if (x+1 * y > 9)
 {
 printf("%d, ", x * y );
 }
