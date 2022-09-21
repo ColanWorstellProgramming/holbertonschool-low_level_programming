@@ -25,13 +25,13 @@ printf("%d", x * y);
 }
 else
 {
-if ((x+1) * y > 9)
+if ((x + 1) * y > 9)
 {
-printf("%d, ", x * y );
+printf("%d, ", x * y);
 }
 else
 {
-printf("%d,  ", x * y );
+printf("%d,  ", x * y);
 }
 }
 }
