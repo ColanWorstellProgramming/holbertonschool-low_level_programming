@@ -4,7 +4,7 @@
 #include "main.h"
 
 /**
- * int_islower - | starts file
+ * _islower - | starts file
  * Return: - | ends file
  */
 
