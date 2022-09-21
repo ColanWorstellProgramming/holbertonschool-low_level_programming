@@ -5,6 +5,8 @@
 
 /**
  * add - | starts file
+ * @i: - | int
+ * @x: - | int
  * Return: - | ends file
  */
 
