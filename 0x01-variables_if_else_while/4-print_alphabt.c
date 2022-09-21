@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/**
+/**i
  *main - starts file
  *Return: ends file
  */
@@ -17,5 +17,4 @@ if(x!='e' && x!='q')
 putchar(x);
 }
 putchar('\n');
-}
 }
