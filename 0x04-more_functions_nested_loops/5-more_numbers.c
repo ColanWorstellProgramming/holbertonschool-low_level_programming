@@ -43,12 +43,11 @@ if (i > 9)
 {
 int a = x + y;
 _putchar(a);
-y++;
+y = y + 1;
 }
 }
 
 _putchar('\n');
 
 }
-
 }
