@@ -20,7 +20,7 @@ _putchar('\n');
 else
 {
 
-for (y = 1; y < n; y++)
+for (y = 0; y < n; y++)
 {
 
 for (x = 0; x < n; x++)
