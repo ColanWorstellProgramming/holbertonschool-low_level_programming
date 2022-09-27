@@ -20,7 +20,7 @@ else
 {
 while (x < n)
 {
-_putchar('-');
+_putchar('_');
 x++;
 }
 }
