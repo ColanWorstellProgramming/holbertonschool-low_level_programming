@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * isupper - | starts the file
+ * _isupper - | starts the file
  * @c: - | var
  * Return: - | ends the file
  */
