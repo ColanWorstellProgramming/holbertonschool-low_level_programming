@@ -19,6 +19,8 @@ int x = 48;
 int y = 0;
 int z = 0;
 int flagz = 0;
+int a;
+int b;
 
 for (i = 0; i < 15; i++)
 {
@@ -27,7 +29,6 @@ if (z == 9)
 flagz = 1;
 }
 
-int b;
 b = x + z;
 _putchar(b);
 if (flagz == 0)
@@ -41,14 +42,17 @@ z = 1;
 
 if (i > 9)
 {
-int a;
+
 a = x + y;
 _putchar(a);
 y = y + 1;
+
 }
+
 }
 
 _putchar('\n');
 
 }
+
 }
