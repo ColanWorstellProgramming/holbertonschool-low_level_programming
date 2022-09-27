@@ -13,16 +13,18 @@ int i;
 int x = 48;
 int y = 0;
 
-for ( i = 0; i < 15; i++)
+for (i = 0; i < 15; i++)
 {
-if ( i >= 10 )
+if (i >= 10)
 {
-_putchar(x + y);
+int a = x + y;
+_putchar(a);
 y++;
 }
 else
 {
-_putchar(x + i);
+int b = x + i;
+_putchar(b);
 }
 }
 _putchar('\n');
