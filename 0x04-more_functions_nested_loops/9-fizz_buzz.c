@@ -11,6 +11,12 @@ int main(void)
 
 int i;
 
+if (i < 0)
+{
+_putchar(' ');
+}
+else
+{
 for (i = 1; i < 101; i++)
 {
 
@@ -37,6 +43,6 @@ _putchar(' ');
 }
 
 _putchar('\n');
-
+}
 return (0);
 }
