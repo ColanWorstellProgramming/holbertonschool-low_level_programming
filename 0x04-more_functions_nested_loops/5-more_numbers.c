@@ -45,7 +45,7 @@ if (i > 9)
 
 a = x + y;
 _putchar(a);
-y = y + 1;
+y++;
 
 }
 
