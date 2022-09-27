@@ -18,7 +18,7 @@ _putchar('\n');
 }
 else
 {
-while (x < n)
+while (x < n-1)
 {
 _putchar('-');
 x++;
