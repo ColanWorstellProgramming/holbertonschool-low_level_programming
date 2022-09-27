@@ -31,7 +31,7 @@ _putchar(' ');
 }
 else
 {
-_putchar(i);
+_putchar("%i", i);
 _putchar(' ');
 }
 }
