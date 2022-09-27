@@ -27,6 +27,7 @@ if (z == 9)
 {
 flagz = 1;
 }
+
 int b = x + z;
 _putchar(b);
 if (flagz == 0)
