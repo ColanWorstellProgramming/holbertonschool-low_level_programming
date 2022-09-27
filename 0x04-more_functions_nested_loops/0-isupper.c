@@ -1,9 +1,10 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * main - | starts the file
- * @c: | var
- * Return: | ends the file
+ * isupper - | starts the file
+ * @c: - | var
+ * Return: - | ends the file
  */
 
 int _isupper(int c)
