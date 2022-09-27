@@ -12,13 +12,13 @@ void print_line(int n)
 
 int x = 0;
 
-if (n == x)
+if (n <= x)
 {
 _putchar('\n');
 }
 else
 {
-while (x < n-1)
+while (x < n)
 {
 _putchar('-');
 x++;
