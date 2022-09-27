@@ -28,6 +28,7 @@ for (x = 0; x < n; x++)
 _putchar(' ');
 }
 _putchar('\\');
+x++;
 }
 _putchar('\n');
 }
