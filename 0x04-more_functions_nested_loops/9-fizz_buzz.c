@@ -16,21 +16,22 @@ for (i = 1; i < 101; i++)
 
 if ((i % 15) == 0)
 {
-printf("FizzBuzz ");
+printf("FizzBuzz");
 }
 if ((i % 3) == 0)
 {
-printf("Fizz ");
+printf("Fizz");
 }
 if ((i % 5) == 0)
 {
-printf("Buzz ");
+printf("Buzz");
 }
 else
 {
 printf("%i", i);
-printf(" ");
 }
+
+printf(" ");
 
 }
 printf("\n");
