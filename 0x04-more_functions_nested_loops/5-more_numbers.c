@@ -27,7 +27,8 @@ if (z == 9)
 flagz = 1;
 }
 
-int b = x + z;
+int b;
+b = x + z;
 _putchar(b);
 if (flagz == 0)
 {
@@ -40,7 +41,8 @@ z = 1;
 
 if (i > 9)
 {
-int a = x + y;
+int a;
+a = x + y;
 _putchar(a);
 y = y + 1;
 }
