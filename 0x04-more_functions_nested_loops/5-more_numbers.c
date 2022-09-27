@@ -15,16 +15,16 @@ int y = 0;
 
 for (i = 0; i < 15; i++)
 {
-if (i >= 10)
+if (i < 9)
+{
+int b = x + i;
+_putchar(b);
+}
+if ( i > 9)
 {
 int a = x + y;
 _putchar(a);
 y++;
-}
-else
-{
-int b = x + i;
-_putchar(b);
 }
 }
 _putchar('\n');
