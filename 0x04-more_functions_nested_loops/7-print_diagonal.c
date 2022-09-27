@@ -20,7 +20,7 @@ else if (n > 0)
 {
 while (x < n)
 {
-_putchar(92);
+_putchar('\\');
 x++;
 }
 _putchar('\n');
