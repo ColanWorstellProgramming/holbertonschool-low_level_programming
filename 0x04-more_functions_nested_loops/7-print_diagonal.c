@@ -20,8 +20,6 @@ _putchar('\n');
 else
 {
 
-_putchar('\\');
-
 for (y = 1; y < n; y++)
 {
 
@@ -33,6 +31,7 @@ _putchar(' ');
 }
 
 _putchar('\\');
+_putchar('\n');
 
 }
 
