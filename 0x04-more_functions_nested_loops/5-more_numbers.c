@@ -12,13 +12,19 @@ void more_numbers(void)
 int i;
 int x = 48;
 int y = 0;
+int z = 0;
 
 for (i = 0; i < 15; i++)
 {
-if (i < 9)
+if (z == 10)
 {
-int b = x + i;
+z = 0;
+}
+else
+{
+int b = x + z;
 _putchar(b);
+z++;
 }
 if ( i > 9)
 {
