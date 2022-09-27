@@ -19,19 +19,25 @@ int i;
 int x = 48;
 int y = 0;
 int z = 0;
+int flagz = 0;
 
 for (i = 0; i < 15; i++)
 {
 if (z == 9)
 {
-z = 1;
+flagz = 1;
+}
+int b = x + z;
+_putchar(b);
+if (flagz == 0)
+{
+z++;
 }
 else
 {
-int b = x + z;
-_putchar(b);
-z++;
+z = 1;
 }
+
 if (i > 9)
 {
 int a = x + y;
@@ -39,6 +45,7 @@ _putchar(a);
 y++;
 }
 }
+
 _putchar('\n');
 
 }
