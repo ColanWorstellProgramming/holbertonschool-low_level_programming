@@ -16,7 +16,7 @@ if (n <= x)
 {
 _putchar('\n');
 }
-else
+else if (n > 0)
 {
 while (x < n)
 {
