@@ -28,7 +28,6 @@ if (z == 9)
 {
 flagz = 1;
 }
-
 b = x + z;
 _putchar(b);
 if (flagz == 0)
@@ -39,20 +38,13 @@ else
 {
 z = 1;
 }
-
 if (i > 9)
 {
-
 a = x + y;
 _putchar(a);
 y++;
-
 }
-
 }
-
 _putchar('\n');
-
 }
-
 }
