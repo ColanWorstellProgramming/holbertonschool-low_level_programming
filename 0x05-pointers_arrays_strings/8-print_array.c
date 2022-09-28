@@ -17,9 +17,9 @@ int i = 0;
 while (i < n)
 {
 
-x = *a[i];
+x = a[i];
 
-printf("%i", x)
+printf("%d, ", x)
 
 }
 putchar('\n');
