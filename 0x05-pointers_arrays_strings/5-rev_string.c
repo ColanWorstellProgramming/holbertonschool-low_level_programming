@@ -23,8 +23,8 @@ while (y >= 0)
 if (s[y] != '\0')
 {
 putchar(s[y]);
-y--;
 s[y] = '\0';
+y--;
 }
 else
 {
@@ -32,6 +32,6 @@ y--;
 }
 }
 
-}
+i}
 putchar('\n');
 }
