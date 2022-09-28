@@ -10,21 +10,17 @@
 void print_rev(char *s)
 {
 
-int i = 0;
-int y = 0;
-int counter = 0;
-int revcounter = 0;
+int y = 1;
 
 while (s[y] != '\0')
 {
-counter++;
 y++;
 }
 
-while (counter >= 0)
+while (y > 0)
 {
-putchar(s[counter]);
-counter--;
+putchar(s[y]);
+y--;
 }
 
 }
