@@ -10,7 +10,7 @@
 void print_rev(char *s)
 {
 
-int y = 0;
+int y = 1;
 
 if (s[0] != '\0')
 {
