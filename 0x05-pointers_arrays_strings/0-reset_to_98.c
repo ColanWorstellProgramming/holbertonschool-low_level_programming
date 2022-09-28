@@ -2,21 +2,14 @@
 #include <stdio.h>
 
 /**
- * _isupper - | starts the file
- * @c: - | var
+ * reset_to_98 - | starts the file
+ * @n: - | var
  * Return: - | ends the file
  */
 
-int _isupper(int c)
+void reset_to_98(int *n)
 {
 
-if (c > 64 && c < 91)
-{
-return (1);
-}
-else
-{
-return (0);
-}
+&n = 98;
 
 }
