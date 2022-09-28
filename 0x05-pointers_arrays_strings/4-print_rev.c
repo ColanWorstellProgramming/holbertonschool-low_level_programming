@@ -12,6 +12,9 @@ void print_rev(char *s)
 
 int y = 1;
 
+if (s[0] != '\0')
+{	
+
 while (s[y] != '\0')
 {
 y++;
@@ -24,5 +27,5 @@ y--;
 }
 
 putchar('\n');
-
+}
 }
