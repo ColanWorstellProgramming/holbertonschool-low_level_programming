@@ -19,7 +19,7 @@ while (i < n)
 
 x = a[i];
 
-printf("%d, ", x)
+printf("%d, ", x);
 
 }
 putchar('\n');
