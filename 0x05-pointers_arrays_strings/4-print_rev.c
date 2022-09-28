@@ -20,9 +20,9 @@ while (s[y] != '\0')
 y++;
 }
 
-while ((y + 1) >= 2)
+while (y >= 0)
 {
-putchar(s[y]);
+putchar(s[y+1]);
 y--;
 }
 
