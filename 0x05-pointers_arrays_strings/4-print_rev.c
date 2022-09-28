@@ -17,7 +17,7 @@ while (s[y] != '\0')
 y++;
 }
 
-while (y >= 1)
+while (y >= 0)
 {
 putchar(s[y]);
 y--;
