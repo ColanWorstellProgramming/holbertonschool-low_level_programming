@@ -20,7 +20,7 @@ while (i < n)
 x = a[i];
 
 printf("%d, ", x);
-
+i++;
 }
 putchar('\n');
 }
