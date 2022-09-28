@@ -21,17 +21,17 @@ counter++;
 y++;
 }
 
-char arx[y];
+char x[] = s[];
 
 for (i = counter; i > 0; i--)
 {
-arx[revcounter] = s[counter];
+x[revcounter] = s[counter];
 revcounter++;
 }
 
 while (counter >= 0)
 {
-putchar(arx[counter]);
+putchar(x[counter]);
 counter--;
 }
 
