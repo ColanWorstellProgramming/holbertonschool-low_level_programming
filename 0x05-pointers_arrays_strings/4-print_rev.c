@@ -14,12 +14,14 @@ int i = 0;
 int y = 0;
 int counter = 0;
 int revcounter = 0;
-char x[];
 
-while (x[y] != '\0')
+while (s[y] != '\0')
 {
 counter++;
+y++;
 }
+
+char x[y];
 
 for (i = counter; i > 0; i--)
 {
