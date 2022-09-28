@@ -12,6 +12,7 @@ void puts_half(char *str)
 
 int y = 0;
 int n;
+int i;
 
 if (str[0] != '\0')
 {
@@ -29,8 +30,6 @@ else
 {
 n = y;
 }
-
-int i;
 
 for (i = 0; i < n; i++)
 {
