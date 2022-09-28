@@ -10,7 +10,7 @@
 int _strlen(char *s)
 {
 
-int i = 0;
+int i = 1;
 int x = 0;
 char max = s[0];
 
