@@ -24,6 +24,7 @@ while (y >= 0)
 {
 if (s[y] != '\0')
 {
+putchar(s[y]);
 y--;
 }
 else
