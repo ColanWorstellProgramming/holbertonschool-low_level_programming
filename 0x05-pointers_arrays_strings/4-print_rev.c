@@ -20,7 +20,7 @@ while (s[y] != '\0')
 y++;
 }
 
-while ((y + 1) >= 0)
+while ((y + 1) >= 2)
 {
 putchar(s[y]);
 y--;
