@@ -25,7 +25,7 @@ printf("%d", x);
 }
 else
 {
-printf("%d, ", x); 
+printf("%d, ", x);
 }
 i++;
 }
