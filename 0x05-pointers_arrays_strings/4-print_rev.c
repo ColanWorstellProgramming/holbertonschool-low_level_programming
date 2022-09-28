@@ -14,7 +14,7 @@ int i = 0;
 int y = 0;
 int counter = 0;
 int revcounter = 0;
-char x[] = s[];
+char x[] = s[0];
 
 while (x[y] != '\0')
 {
