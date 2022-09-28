@@ -19,7 +19,14 @@ while (i < n)
 
 x = a[i];
 
-printf("%d, ", x);
+if (n - i == 1)
+{
+printf("%d", x);
+}
+else
+{
+printf("%d, ", x); 
+}
 i++;
 }
 putchar('\n');
