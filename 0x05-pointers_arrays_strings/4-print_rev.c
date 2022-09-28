@@ -23,6 +23,9 @@ putchar(s[y]);
 y--;
 }
 
+if (s[0] != '\0')
+{
 putchar('\n');
+}
 
 }
