@@ -21,11 +21,9 @@ counter++;
 y++;
 }
 
-type x[] = s[];
-
 for (i = counter; i > 0; i--)
 {
-x[revcounter] = s[counter];
+char x[revcounter] = s[counter];
 revcounter++;
 }
 
