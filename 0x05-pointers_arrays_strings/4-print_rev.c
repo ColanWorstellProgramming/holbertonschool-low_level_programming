@@ -22,7 +22,7 @@ y++;
 
 while (y >= 0)
 {
-putchar(s[y+1]);
+putchar(s[y]);
 y--;
 }
 
