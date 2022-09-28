@@ -23,13 +23,14 @@ if (or == 0)
 {
 putchar(str[y]);
 or = 1;
-} else if (or == 1)
+}
+else
+if (or == 1)
 {
 or = 0;
 }
 y++;
 }
-
-putchar('\n');
 }
+putchar('\n');
 }
