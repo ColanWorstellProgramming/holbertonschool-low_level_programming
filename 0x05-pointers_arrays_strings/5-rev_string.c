@@ -11,7 +11,6 @@ void rev_string(char *s)
 {
 
 int y = 0;
-
 if (s[0] != '\0')
 {
 
@@ -19,13 +18,13 @@ while (s[y] != '\0')
 {
 y++;
 }
-
 while (y >= 0)
 {
 if (s[y] != '\0')
 {
 putchar(s[y]);
 y--;
+s[y] = '\0';
 }
 else
 {
