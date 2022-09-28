@@ -11,7 +11,7 @@ void print_rev(char *s)
 {
 
 int i = 0;
-int y = 0;
+int y = 1;
 int counter = 0;
 int revcounter = 0;
 
@@ -21,7 +21,7 @@ counter++;
 y++;
 }
 
-char x[];
+char x[y];
 
 for (i = counter; i > 0; i--)
 {
