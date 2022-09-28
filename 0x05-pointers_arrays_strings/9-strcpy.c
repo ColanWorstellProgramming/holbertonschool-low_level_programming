@@ -8,32 +8,19 @@
  * Return: - | ends the file
  */
 
-void *_strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 
-int y = 0;
+int i = 0;
+char x[];
 
-if (s[0] != '\0')
+while (src[i] != '\0')
 {
-
-while (s[y] != '\0')
-{
-y++;
-}
-
-while (y >= 0)
-{
-if (s[y] != '\0')
-{
-putchar(s[y]);
-y--;
-}
-else
-{
-y--;
-}
+x[i] = src[i];
+i++;
 }
 
-}
-putchar('\n');
+dest = x[];
+
+return (dest);
 }
