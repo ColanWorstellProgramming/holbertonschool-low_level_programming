@@ -21,7 +21,7 @@ counter++;
 y++;
 }
 
-char *x[y];
+char x[];
 
 for (i = counter; i > 0; i--)
 {
