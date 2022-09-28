@@ -23,4 +23,6 @@ putchar(s[y]);
 y--;
 }
 
+putchar('\n');
+
 }
