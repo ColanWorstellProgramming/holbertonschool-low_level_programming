@@ -10,14 +10,14 @@
 void print_rev(char *s)
 {
 
-int y = 0;
+int y = 1;
 
 while (s[y] != '\0')
 {
 y++;
 }
 
-while (y > 0)
+while (y >= 0)
 {
 putchar(s[y]);
 y--;
