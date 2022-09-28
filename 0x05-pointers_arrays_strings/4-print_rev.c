@@ -21,7 +21,7 @@ counter++;
 y++;
 }
 
-char x[] = s[];
+type x[] = s[];
 
 for (i = counter; i > 0; i--)
 {
