@@ -19,5 +19,5 @@ while (max != '\0')
 x++;
 max = s[i++];
 }
-return (max);
+return (x);
 }
