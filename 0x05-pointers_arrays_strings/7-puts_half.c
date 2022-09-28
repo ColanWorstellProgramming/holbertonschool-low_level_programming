@@ -28,10 +28,10 @@ n = ((y - 1) / 2);
 }
 else
 {
-n = y/2;
+n = (y / 2);
 }
 
-for (i = 0; i < n; i++)
+for (i = n; i < y; i++)
 {
 putchar(str[i]);
 }
