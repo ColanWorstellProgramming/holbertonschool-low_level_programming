@@ -19,9 +19,9 @@ x++;
 }
 while (src[i] != '\0')
 {
-dest[x+i] = src[i];
+dest[x + i] = src[i];
 i++;
 }
-dest[x+i] = '\0';
+dest[x + i] = '\0';
 return (dest);
 }
