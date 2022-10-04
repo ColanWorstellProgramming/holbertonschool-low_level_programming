@@ -22,7 +22,7 @@ x++;
 
 while (src[i] != '\0' && i < n)
 {
-dest[x+i] = src[i];
+dest[x + i] = src[i];
 i++;
 }
 
@@ -33,7 +33,7 @@ y++;
 
 if (y < n)
 {
-dest[x+i] = '\0';
+dest[x + i] = '\0';
 }
 
 return (dest);
