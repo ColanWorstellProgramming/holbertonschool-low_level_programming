@@ -15,7 +15,7 @@ int i = 0;
 int x = 0;
 int y = 0;
 
-while (dest[i] != '\0')
+while (dest[x] != '\0')
 {
 x++;
 }
