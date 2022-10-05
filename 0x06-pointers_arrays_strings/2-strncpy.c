@@ -28,6 +28,7 @@ y++;
 while (y < n)
 {
 dest[y] = '\0';
+y++;
 }
 
 return (dest);
