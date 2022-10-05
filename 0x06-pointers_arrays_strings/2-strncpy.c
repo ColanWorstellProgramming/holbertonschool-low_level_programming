@@ -25,9 +25,9 @@ while (src[y] != '\0')
 y++;
 }
 
-if (y < n)
+while (y < n)
 {
-dest[i] = '\0';
+dest[y] = '\0';
 }
 
 return (dest);
