@@ -27,7 +27,7 @@ y++;
 
 if (y < n)
 {
-dest[x + i] = '\0';
+dest[i] = '\0';
 }
 
 return (dest);
