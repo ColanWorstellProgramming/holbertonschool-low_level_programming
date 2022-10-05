@@ -10,28 +10,25 @@
 unsigned int *_strspn(char *s, char *accept)
 {
 
-unsigned int i = 0;
-unsigned int y = 0;
+unsigned int i;
+int x = 0
+int y = 0;
 
-while (s[i])
+while (s[x])
 {
 
 while (accept[y])
 {
 
-if (s[i] == accept[y])
+if (s[x] == accept[y])
 {
-break;
+i++;
 }
 
 y++;
 }
-if (!accept[y])
-{
-break;
-}
 
-i++;
+x++;
 }
 
 return (i);
