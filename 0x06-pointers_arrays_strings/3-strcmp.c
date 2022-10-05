@@ -10,17 +10,13 @@
 int _strcmp(char *s1, char *s2)
 {
 
-int i = 0;
-int x = 0;
-
-
-if (i < x)
+if (s1 < s2)
 {
-return (i - x);
+return (s1 - s2);
 }
-else if (i > x)
+else if (s1 > s2)
 {
-return (x - i);
+return (s1 - s2);
 }
 else
 {
