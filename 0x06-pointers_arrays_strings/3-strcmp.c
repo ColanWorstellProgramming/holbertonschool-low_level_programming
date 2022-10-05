@@ -13,12 +13,12 @@ int _strcmp(char *s1, char *s2)
 int i = 0;
 int x = 0;
 
-while (*s1 != '\0')
+while (s1)
 {
 i++;
 }
 
-while (*s2 != '\0')
+while (s2)
 {
 x++;
 }
