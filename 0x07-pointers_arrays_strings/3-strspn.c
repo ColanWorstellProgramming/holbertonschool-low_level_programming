@@ -7,7 +7,7 @@
  * Return: - | ends the file
  */
 
-unsigned int *_strchr(char *s, char *accept)
+unsigned int *_strspn(char *s, char *accept)
 {
 
 unsigned int i;
