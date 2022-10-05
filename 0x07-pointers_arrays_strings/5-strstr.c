@@ -13,10 +13,10 @@ char *_strstr(char *haystack, char *needle)
 unsigned int x = 0;
 unsigned int y = 0;
 
-while (haystack[i])
+while (haystack[x])
 {
 
-while (needle[y] && haystack[i] == needle[0])
+while (needle[y] && haystack[x] == needle[0])
 {
 
 if (haystack[x + y] == needle[y])
@@ -35,7 +35,7 @@ y = 0;
 }
 else
 {
-return (haystack + i);
+return (haystack + x);
 }
 }
 return (0);
