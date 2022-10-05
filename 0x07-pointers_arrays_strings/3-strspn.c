@@ -35,5 +35,5 @@ break;
 x++;
 }
 
-return (x);
+return (x - 1);
 }
