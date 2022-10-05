@@ -15,7 +15,7 @@ int i;
 int x = 0;
 int y = 0;
 
-for (i = 0; x < size; x++)
+for (i = 0; i < size; i++)
 {
 x = x + a[(size + 1) * i];
 y = y + a[(size - 1) * (i + 1)];
