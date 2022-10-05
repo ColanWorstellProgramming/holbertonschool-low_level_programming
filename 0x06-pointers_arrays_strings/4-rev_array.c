@@ -16,7 +16,9 @@ int x;
 
 for (i = 0; i < y; i++)
 {
-x[i] = a[y];
+x = a[i];
+a[i] = a[y];
+a[y] = x;
 y--;
 }
 
