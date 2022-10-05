@@ -18,11 +18,6 @@ while (s1 != '\0')
 i++;
 }
 
-while (s2 != '\0')
-{
-x++;
-}
-
 if (i < x)
 {
 return (i - x);
