@@ -9,8 +9,8 @@
 char *leet(char *s)
 {
 
-char x[] = "aAeEoOtTlL";
-char y[] = "4455007711";
+char x[10] = "aAeEoOtTlL";
+char y[10] = "4455007711";
 
 int i = 0;
 int z;
