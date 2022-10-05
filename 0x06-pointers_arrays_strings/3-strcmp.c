@@ -10,30 +10,19 @@
 int _strcmp(char *s1, char *s2)
 {
 
-int x = 0;
-int y = 0;
-
-while (s1 != '\0')
+while (*s1 != '\0' && *s2 != '\0' && *s1 == *s2)
 {
-x++;
+s1++;
+s2++;
 }
 
-while (s2 != '\0')
+if (*s1 == *s2)
 {
-y++;
-}
-
-if (x < y)
-{
-return (x - y);
-}
-else if (x > y)
-{
-return (x - y);
+return (0);
 }
 else
 {
-return (0);
+return (*s1 - *s2);
 }
 
 }
