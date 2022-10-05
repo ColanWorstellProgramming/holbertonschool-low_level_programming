@@ -16,7 +16,7 @@ unsigned int y;
 for (x = 0; s[x]; x++)
 {
 
-while (y = 0; accept[y]; y++)
+for (y = 0; accept[y]; y++)
 {
 
 if (s[x] == accept[y])
