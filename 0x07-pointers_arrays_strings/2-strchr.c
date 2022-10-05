@@ -21,5 +21,5 @@ int i = 0;
 *i++;
 *}
 */
-return (NULL);
+return (0);
 }
