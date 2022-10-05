@@ -16,7 +16,6 @@ int y = n;
 
 for (i = 0; i < a[n]; i++)
 {
-x[i] = a[y];
 y--;
 
 }
