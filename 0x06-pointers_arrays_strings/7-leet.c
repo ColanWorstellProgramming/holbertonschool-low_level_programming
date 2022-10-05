@@ -21,7 +21,7 @@ while (s[i] != '\0')
 for (z = 0; z < 10; z++)
 {
 
-if (s[i] = x[z])
+if (s[i] == x[z])
 {
 s[i] = y[z];
 }	
