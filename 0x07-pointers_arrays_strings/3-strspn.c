@@ -14,13 +14,13 @@ unsigned int i;
 int x = 0
 int y = 0;
 
-while (s[x])
+while (accept[x])
 {
 
-while (accept[y])
+while ((s[y] >= 'a' && s[y] <= 'z') || (s[y] >= 'A' && s[y] <= 'Z'))
 {
 
-if (s[x] == accept[y])
+if (s[y] == accept[x])
 {
 i++;
 }
