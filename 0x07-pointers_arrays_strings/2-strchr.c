@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strchr - | starts the file
+ * *_strchr - | starts the file
  * @s: - | var
  * @c: - | var
  * Return: - | ends the file
