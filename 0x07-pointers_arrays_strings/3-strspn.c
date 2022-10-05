@@ -31,5 +31,5 @@ y++;
 x++;
 }
 
-return (i);
+return (i - 1);
 }
