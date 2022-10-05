@@ -11,7 +11,7 @@ unsigned int _strspn(char *s, char *accept)
 {
 
 unsigned int i = 0;
-int x = 0
+int x = 0;
 int y = 0;
 
 while (accept[x])
@@ -31,7 +31,5 @@ y++;
 x++;
 }
 
-s = i;
-
-return (s);
+return (i);
 }
