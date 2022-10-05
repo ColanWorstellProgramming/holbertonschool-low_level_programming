@@ -21,5 +21,5 @@ return (s[i]);
 i++;
 }
 
-return (NULL);
+return ('\0');
 }
