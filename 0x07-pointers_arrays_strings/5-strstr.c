@@ -19,7 +19,7 @@ while (haystack[i])
 while (needle[y] && haystack[i] == needle[0])
 {
 
-if (haystack[x + y] == needle[0])
+if (haystack[x + y] == needle[y])
 {
 y++;
 }
