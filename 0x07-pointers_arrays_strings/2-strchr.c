@@ -14,7 +14,7 @@ int i = 0;
 
 while (s[i])
 {
-if (s[i] == c)
+if ((s[i] + i) == c)
 {
 return (s + i);
 }
