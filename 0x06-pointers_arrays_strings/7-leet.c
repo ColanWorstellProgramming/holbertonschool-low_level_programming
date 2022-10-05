@@ -15,7 +15,7 @@ char y[10] = "4455007711";
 int i = 0;
 int z;
 
-while (s[i])
+while (s[i] != '\0')
 {
 
 for (z = 0; z < 10; z++)
