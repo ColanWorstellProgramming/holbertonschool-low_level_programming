@@ -26,8 +26,8 @@ if (s[i] = x[z])
 s[i] = y[z];
 }	
 
-i++;
 }
+i++;
 }
 
 return (s);
