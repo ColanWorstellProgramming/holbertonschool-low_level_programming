@@ -9,10 +9,10 @@
 char *leet(char *s)
 {
 
+int z;
+int i = 0;
 char x[10] = "aAeEoOtTlL";
 char y[10] = "4433007711";
-int i = 0;
-int z;
 
 while (s[i] != '\0')
 {
