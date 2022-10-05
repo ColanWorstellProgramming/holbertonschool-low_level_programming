@@ -16,17 +16,17 @@ unsigned int y;
 while (s[i])
 {
 
-while (accept[j])
+while (accept[y])
 {
 
-if (s[i] == accept[j])
+if (s[i] == accept[y])
 {
 break;
 }
 
-j++;
+y++;
 }
-if (!accept[j])
+if (!accept[y])
 {
 break;
 }
