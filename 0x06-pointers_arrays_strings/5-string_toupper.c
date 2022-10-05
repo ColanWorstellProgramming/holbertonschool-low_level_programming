@@ -2,20 +2,20 @@
 
 /**
  * string_toupper - | starts the file
- * @*: - | var
+ * @s: - | var
  * Return: - | ends the file
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
 
 int i = 0;
 
-while (*[i] != '\0')
+while (s[i] != '\0')
 {
-if (*[i] > 96 && *[i] < 123)
+if (s[i] > 96 && s[i] < 123)
 {
-*[i] = *[i] - 32;
+s[i] = s[i] - 32;
 }
 i++;
 }
