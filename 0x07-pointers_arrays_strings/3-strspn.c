@@ -10,13 +10,13 @@
 unsigned int _strspn(char *s, char *accept)
 {
 
-unsigned int x = 0;
-unsigned int y = 0;
+unsigned int x;
+unsigned int y;
 
-while (s[x])
+for (x = 0; s[x]; x++)
 {
 
-while (accept[y])
+while (y = 0; accept[y]; y++)
 {
 
 if (s[x] == accept[y])
@@ -24,7 +24,6 @@ if (s[x] == accept[y])
 break;
 }
 
-y++;
 }
 
 if (!accept[y])
@@ -32,7 +31,6 @@ if (!accept[y])
 break;
 }
 
-x++;
 }
 
 return (x);
