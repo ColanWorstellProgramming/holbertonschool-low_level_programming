@@ -28,7 +28,7 @@ else
 for (y = 0; y < 13; y++)
 {
 
-if (s[i] = x[y])
+if (s[i] == x[y])
 {
 
 s[i+1] = s[i+1] - 32;
