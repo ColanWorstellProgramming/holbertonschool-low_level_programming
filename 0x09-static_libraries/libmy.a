@@ -1,18 +1,5 @@
 !<arch>
-0-isupper.o/    0           0     0     644     159       `
-#include "main.h"
-
-/**
- *  * _isupper - | starts the file
- *   * @c: - | var
- *    * Return: - | ends the file
- *     */
-
-int _isupper (int c)
-{
-return (c);
-}
-
+0-isupper.o/    0           0     0     644     0         `
 0-memset.o/     0           0     0     644     0         `
 0-strcat.o/     0           0     0     644     0         `
 1-isdigit.o/    0           0     0     644     0         `
