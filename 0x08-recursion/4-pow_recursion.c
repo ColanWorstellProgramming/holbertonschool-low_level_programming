@@ -14,7 +14,7 @@ if (y < 0)
 {
 return (-1);
 }
-else if (y == 1)
+if (y == 1)
 {
 return (1);
 }
