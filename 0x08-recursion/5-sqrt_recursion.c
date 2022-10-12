@@ -19,13 +19,12 @@ return (_sqrt(n, 0));
 }
 
 }
-
 /**
- *  * _sqrt - | starts the file
- *   * @x: - | var
- *    * @y: - | var
- *     * Return: - |
- *      */
+ * _sqrt - | starts the file
+ * @x: - | var
+ * @y: - | var
+ * Return: - |
+ */
 
 int _sqrt(int x, int y)
 {
@@ -42,5 +41,4 @@ else
 {
 return (_sqrt(x, y + 1));
 }
-
 }
