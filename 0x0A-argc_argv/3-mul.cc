@@ -20,5 +20,12 @@ for (i = 1; i < argc; i++)
 {
 f = f * atoi(argv[i]);
 }
+printf("%d\n", f);
 return (0);
+}
+else
+{
+printf("Error\n");
+return (1);
+}
 }
