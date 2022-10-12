@@ -13,9 +13,10 @@ if (n <= 0)
 {
 return (-1);
 }
-
-return (_sqrt(n, 0));
-
+else
+{
+return (_sqrt(n, (n + 1) / 2));
+}
 }
 /**
  * _sqrt - | starts the file
