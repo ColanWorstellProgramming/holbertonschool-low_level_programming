@@ -27,10 +27,10 @@ return (y);
 }
 
 /**
- *  * _strlen - | starts the file
- *   * @s: - | var
- *    * Return: - |
- *     */
+ * _strlen - | starts the file
+ * @s: - | var
+ * Return: - |
+ */
 
 int _strlen(char *s)
 {
