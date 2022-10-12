@@ -32,5 +32,5 @@ for (i = 0; i < size; i++)
 y[i] = c;
 }
 }
-return y;
+return (y);
 }
