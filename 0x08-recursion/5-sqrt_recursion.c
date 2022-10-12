@@ -28,16 +28,16 @@ return (_sqrt(n, (n + 1) / 2));
 int _sqrt(int x, int y)
 {
 
-if (x == ( y * y))
-{
-return (x);
-}
-else if (x <= (y * y))
+if (x < 1)
 {
 return (-1);
 }
+else if (y * y == x)
+{
+return (y);
+}
 else
 {
-return (_sqrt(x, y + 1));
+return (_sqrt(x, y - 1));
 }
 }
