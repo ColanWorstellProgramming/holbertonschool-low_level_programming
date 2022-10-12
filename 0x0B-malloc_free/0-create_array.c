@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * main - | starts the file
+ * create_array - | starts the file
  * @size: - | var
  * @c: - | var
  * Return: - |
