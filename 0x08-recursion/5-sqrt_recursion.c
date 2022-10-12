@@ -28,7 +28,7 @@ return (_sqrt(n, (n + 1) / 2));
 int _sqrt(int x, int y)
 {
 
-if (x < 1)
+if (y < 1)
 {
 return (-1);
 }
