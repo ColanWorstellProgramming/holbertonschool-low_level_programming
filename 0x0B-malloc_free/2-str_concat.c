@@ -17,11 +17,11 @@ int i, x;
 
 if (s1 == NULL)
 {
-s1 == ("");
+s1 = ("");
 }
 if (s2 == NULL)
 {
-s2 == ("");
+s2 = ("");
 }
 
 y = malloc(_strlen(s1) + _strlen(s2) + 1);
@@ -31,7 +31,7 @@ return (NULL);
 }
 for (i = 0; i < _strlen(s1); i++)
 {
-y[i] = str[i];
+y[i] = s1[i];
 }
 for (x = 0; x < _strlen(s2); x++)
 {
