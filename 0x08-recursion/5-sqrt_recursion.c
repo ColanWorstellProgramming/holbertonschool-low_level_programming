@@ -30,7 +30,7 @@ int _sqrt(int x, int y)
 
 if (y >= x)
 {
-return (-1);
+return (1);
 }
 else if (y * y == x)
 {
