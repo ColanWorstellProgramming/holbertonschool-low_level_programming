@@ -10,13 +10,17 @@
 int main(int argc, char *argv[])
 {
 
-int x = argv[1];
-int y = argv[2];
 int f = 1;
+int i;
 
 if (argc == 3)
 {
-f = x * y;
+
+for (i = 1; i < argc; i++)
+{
+f *= atoi(argv[i]);
+}
+
 printf("%d\n", f);
 return (0);
 }
