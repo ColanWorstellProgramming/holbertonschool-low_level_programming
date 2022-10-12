@@ -15,7 +15,7 @@ return (-1);
 }
 else
 {
-return (_sqrt(n, (n + 1) / 2));
+return (_sqrt(n, 1));
 }
 }
 /**
@@ -28,7 +28,7 @@ return (_sqrt(n, (n + 1) / 2));
 int _sqrt(int x, int y)
 {
 
-if (y < 1)
+if (y >= x)
 {
 return (-1);
 }
@@ -38,6 +38,6 @@ return (y);
 }
 else
 {
-return (_sqrt(x, y - 1));
+return (_sqrt(x, y + 1));
 }
 }
