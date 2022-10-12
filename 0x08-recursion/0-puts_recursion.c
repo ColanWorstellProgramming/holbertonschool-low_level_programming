@@ -17,7 +17,7 @@ _puts_recursion(s + 1);
 
 }
 
-else
+if (*s == '\0')
 
 {
 
