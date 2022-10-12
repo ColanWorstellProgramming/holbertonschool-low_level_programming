@@ -5,7 +5,7 @@
  * main - | starts the file
  * @argc: - | var
  * @argv: - | var
- * Return: 0 - |
+ * Return: - |
  */
 
 int main(int argc, char *argv[])
