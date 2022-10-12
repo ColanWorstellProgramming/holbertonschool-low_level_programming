@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 
 int x = argv[1];
 int y = argv[2];
-int f;
+int f = 1;
 int i;
 
 if (argc == 3)
@@ -23,6 +23,7 @@ return (0);
 }
 else
 {
+printf("Error\n");
 return (1);
 }
 }
