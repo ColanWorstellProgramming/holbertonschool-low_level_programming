@@ -13,10 +13,8 @@ if (n <= 0)
 {
 return (-1);
 }
-else
-{
+
 return (_sqrt(n, 0));
-}
 
 }
 /**
