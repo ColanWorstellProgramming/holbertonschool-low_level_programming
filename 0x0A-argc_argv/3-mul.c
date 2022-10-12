@@ -5,14 +5,14 @@
  * main - | starts the file
  * @argc: - | var
  * @argv: - | var
- * Return: - |
+ * Return: 0 - |
  */
 
 int main(int argc, char *argv[])
 {
 
 int i;
-int f;
+int f = 1;
 
 if (argc == 3)
 {
