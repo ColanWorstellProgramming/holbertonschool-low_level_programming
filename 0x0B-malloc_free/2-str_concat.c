@@ -4,13 +4,13 @@
 #include <stdlib.h>
 
 /**
- * _str_concat - | starts the file
+ * str_concat - | starts the file
  * @s1: - | var
  * @s2: - | var
  * Return: - |
  */
 
-char *_str_concat(char *s1, char *s2)
+char *str_concat(char *s1, char *s2)
 {
 char *y;
 int i, x;
