@@ -13,7 +13,6 @@ int main(int argc, char *argv[])
 int x = argv[1];
 int y = argv[2];
 int f = 1;
-int i;
 
 if (argc == 3)
 {
