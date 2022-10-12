@@ -33,7 +33,7 @@ for (i = 0; i < _strlen(s1); i++)
 {
 y[i] = s1[i];
 }
-for (x = 0; x < _strlen(s2); x++)
+for (x = 0; x <= _strlen(s2); x++)
 {
 y[i + x] = s2[x];
 }
