@@ -40,7 +40,7 @@ return (NULL);
 
 for (x = 0; x < strlen(s1); x++)
 {
-mem[i] = s1[i];
+mem[x] = s1[x];
 }
 
 for (y = 0; y < n; y++)
