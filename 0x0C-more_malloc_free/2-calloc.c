@@ -25,7 +25,7 @@ if (mem == NULL)
 {
 return (NULL);
 }
-for (x = 0; x < nmemb * size; i++)
+for (x = 0; x < nmemb * size; x++)
 {
 mem[x] = 0;
 }
