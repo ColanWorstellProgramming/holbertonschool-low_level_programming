@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
  * malloc_checked - | starts the file
  * @b: - | var
@@ -20,5 +20,6 @@ exit(98);
 else
 {
 return (mem);
+
 }
 }
