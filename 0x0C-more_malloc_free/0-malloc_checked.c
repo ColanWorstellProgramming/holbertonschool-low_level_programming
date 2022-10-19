@@ -18,8 +18,7 @@ if (mem == NULL)
 exit(98);
 }
 else
-{
+
 return (mem);
 
-}
 }
