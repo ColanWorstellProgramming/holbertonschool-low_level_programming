@@ -12,7 +12,18 @@
 
 int *array_range(int min, int max)
 {
+int x;
+int *mem;
 
-
-
+if (min > max)
+return (NULL);
+mem = malloc(((max - min) * sizeof(int)) + sizeof(int));
+if (mem == NULL)
+return (NULL);
+for (x = 0; x <= (max - (min - x)); x++)
+{
+mem[x] = min;
+min++;
+}
+return (mem);
 }
