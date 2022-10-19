@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * string_nconcat - | starts the file
+ * *string_nconcat - | starts the file
  * @s1: - | var
  * @s2: - | var
  * @n: - | var
