@@ -1,3 +1,4 @@
+#include <stdio.h>
 
 /**
  * init_dog - starts the file
