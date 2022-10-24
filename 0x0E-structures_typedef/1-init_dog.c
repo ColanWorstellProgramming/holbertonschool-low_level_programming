@@ -13,20 +13,8 @@
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 
-	struct dog do;
-	do.name = name;
-	do.age = age;
-	do.owner = owner;
-
-	d = do;
+	d.name = name;
+	d.age = age;
+	d.owner = owner;
 
 }
-
-struct dog
-{
-
-	char name;
-	float age;
-	char owner;
-
-};
