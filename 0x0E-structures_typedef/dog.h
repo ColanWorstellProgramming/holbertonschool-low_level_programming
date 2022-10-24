@@ -2,6 +2,13 @@
 #define dog
 #undef dog
 
+/**
+ * struct dog - | starts file
+ * @name: var
+ * @age: var
+ * @owner: var
+ */
+
 struct dog
 {
 
