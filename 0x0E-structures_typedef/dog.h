@@ -1,7 +1,6 @@
-#include <stdio.h>
-
 #ifndef dog
 #define dog
+#undef dog
 
 struct dog
 {
