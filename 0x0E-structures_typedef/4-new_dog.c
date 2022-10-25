@@ -10,7 +10,7 @@
  * @age: var
  * @owner: var
  *
- * Retrun: returns
+ * Return: returns
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
