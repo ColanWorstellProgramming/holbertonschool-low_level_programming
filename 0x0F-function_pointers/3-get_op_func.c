@@ -4,7 +4,7 @@
 
 /**
  * get_op_func - main file
- * @s: vra
+ * @s: var
  *
  * Return: pointer to necessary function
  */
@@ -19,7 +19,6 @@ op_t ops[] = {
 {"%", op_mod},
 {NULL, NULL}
 };
-
 int i;
 i = 0;
 if (strlen(s) != 1)
