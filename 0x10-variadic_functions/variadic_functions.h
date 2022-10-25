@@ -11,7 +11,7 @@ void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 
 /**
- * choiceStruct - Structure
+ * struct choiceStruct - Structure
  * @choice1: var
  * @func: var
  */
