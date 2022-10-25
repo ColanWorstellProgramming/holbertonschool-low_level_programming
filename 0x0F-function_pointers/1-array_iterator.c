@@ -3,8 +3,9 @@
 
 /**
  * int_index - main
- * @name: var
- * @f: var
+ * @array: var
+ * @size: var
+ * @cmp: var
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
