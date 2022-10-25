@@ -5,16 +5,16 @@
 
 /**
  * free_dog - starts the file
- * @dog_t: var
+ * @d: var
  */
 
 void free_dog(dog_t *d)
 {
 
-	//if (d == null)
-	//{
-	//return;
-	//}
+	if (d == null)
+	{
+	return;
+	}
 
 	free(d->name);
 	free(d->owner);
