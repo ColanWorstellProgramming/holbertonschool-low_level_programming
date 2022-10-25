@@ -2,6 +2,13 @@
 #define m
 #undef m
 
+/**
+ * struct op - structure
+ *
+ * @op: var
+ * @f: var
+ */
+
 typedef struct op
 {
 char *op;
