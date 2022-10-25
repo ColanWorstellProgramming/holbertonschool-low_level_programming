@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stddef.h>
 #include <stdarg.h>
+#include <stdlib.h>
 
 /**
  * print_numbers - main
