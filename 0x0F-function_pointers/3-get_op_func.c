@@ -5,7 +5,6 @@
 /**
  * get_op_func - main file
  * @s: var
- *
  * Return: pointer to necessary function
  */
 
