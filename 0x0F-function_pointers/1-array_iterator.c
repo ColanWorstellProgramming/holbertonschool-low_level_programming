@@ -2,30 +2,21 @@
 #include <stddef.h>
 
 /**
- * int_index - main
+ * array_iterator - main
  * @array: var
  * @size: var
- * @cmp: var
+ * @action: var
  */
 
-int int_index(int *array, int size, int (*cmp)(int))
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
+size_t i;
 
-int i;
-
-if (array == NULL || cmp == NULL || size <= 0)
-{
-return (-1);
-}
-if (size > 0)
+if (array != NULL && action != NULL && size > 0)
 {
 for (i = 0; i < size; i++)
 {
-if (cmp(array[i]))
-{
-return (i);
+action(array[i]);
 }
 }
-}
-return (-1);
 }
