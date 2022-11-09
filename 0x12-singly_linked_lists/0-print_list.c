@@ -5,6 +5,7 @@
  * @h: list var
  * Return: node count
  */
+
 size_t print_list(const list_t *h)
 {
 int num = 0;
@@ -12,7 +13,7 @@ while (h)
 {
 if (h->str == NULL)
 {
-printf("[0] (nil)");
+printf("[0] (nil)\n");
 }
 else
 {
