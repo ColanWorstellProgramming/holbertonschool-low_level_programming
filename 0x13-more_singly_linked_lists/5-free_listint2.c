@@ -22,6 +22,4 @@ while (head)
 	head = final;
 }
 
-head = NULL;
-
 }
