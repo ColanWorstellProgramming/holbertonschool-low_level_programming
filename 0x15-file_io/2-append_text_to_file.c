@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * create_file - function
+ * append_text_to_file - function
  * @filename: var
  * @text_content: var
  * Return: value
