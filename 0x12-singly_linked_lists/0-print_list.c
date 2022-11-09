@@ -5,7 +5,6 @@
  * @h: list var
  * Return: node count
  */
-
 size_t print_list(const list_t *h)
 {
 int num = 0;
