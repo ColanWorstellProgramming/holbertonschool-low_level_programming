@@ -26,5 +26,5 @@ while (h)
 	}
 
 }
-retunr (num);
+return (num);
 }
