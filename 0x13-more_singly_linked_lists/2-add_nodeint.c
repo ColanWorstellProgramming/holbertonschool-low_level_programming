@@ -1,21 +1,25 @@
 #include "lists.h"
 
 /**
- * print_listint - function
- * @h: list var
+ * add_nodeint - function
+ * @head: list var
+ * @n: var
  * Return: node count
  */
 
-size_t print_listint(const listint_t *h)
+listint_t *add_nodeint(listint_t **head, const int n)
 {
-size_t num = 0;
+listint_t *final;
 
-while (h)
+final = malloc(sizeof(listint_t));
+if (final == NULL)
 {
-	num++;
-	printf("%d\n", h->n);
-	h = h->next;
+	return (NULL);
 }
 
-return (num);
+final->n = n;
+final->next = *head;
+*head = final;
+
+return (final);
 }
