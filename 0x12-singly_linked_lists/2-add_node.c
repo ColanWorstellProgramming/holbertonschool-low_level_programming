@@ -17,6 +17,11 @@ if (str == NULL)
 {
 return (NULL);
 }
+final = malloc(sizeof(list_t));
+if (final == NULL)
+{
+return (NULL);
+}
 copy = strdup(str);
 if (copy == NULL)
 {
