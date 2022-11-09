@@ -18,7 +18,7 @@ if (final == NULL)
 }
 
 final->n = n;
-final->next = *head;
+final->next = NULL;
 
 if (*head == NULL)
 {
