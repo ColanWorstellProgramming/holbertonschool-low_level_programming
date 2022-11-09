@@ -1,8 +1,10 @@
 #include "lists.h"
 
 /**
- * sum_listint - function
+ * insert_nodeint_at_index - function
  * @head: list var
+ * @idx: var
+ * @n: var
  * Return: n/a
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
