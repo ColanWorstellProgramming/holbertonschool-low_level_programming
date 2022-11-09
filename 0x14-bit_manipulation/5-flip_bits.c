@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * clear_bit - function
+ * flip_bits - function
  * @n: var
  * @m: var
  * Return: int
