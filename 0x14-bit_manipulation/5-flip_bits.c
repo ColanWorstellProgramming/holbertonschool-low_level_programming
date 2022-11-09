@@ -2,8 +2,8 @@
 
 /**
  * clear_bit - function
+ * @n: var
  * @m: var
- * @index: var
  * Return: int
  */
 
