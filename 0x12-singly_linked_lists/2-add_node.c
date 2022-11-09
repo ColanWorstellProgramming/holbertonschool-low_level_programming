@@ -26,7 +26,7 @@ copy = strdup(str);
 if (copy == NULL)
 {
 free(final);
-return(NULL);
+return (NULL);
 }
 
 for (l = 0; str[l];)
