@@ -24,12 +24,13 @@ free(final);
 return(NULL);
 }
 
-for (l = 0; str[len]; l++)
+for (l = 0; str[l];)
 {
+l++;
+}
 final->str = copy;
 final->len = l;
 final->next = *head;
 *head = final;
 return (final);
-}
 }
