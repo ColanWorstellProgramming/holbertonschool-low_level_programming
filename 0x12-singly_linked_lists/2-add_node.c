@@ -17,4 +17,5 @@ return (NULL);
 }
 copy = strdup(str);
 final->str = copy;
+return (final);
 }
