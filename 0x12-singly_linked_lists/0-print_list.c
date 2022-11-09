@@ -1,5 +1,4 @@
 #include "lists.h"
-#include <stdio.h>
 
 /**
  * print_list - function
@@ -21,7 +20,7 @@ while (h)
 	}
 	else
 	{
-		printf("[%d] %s\n", str->len, h->str);
+		printf("[%d] %s\n", h->len, h->str);
 		num++;
 		h = h->next;
 	}
