@@ -33,5 +33,5 @@ while (end->next != NULL)
 }
 end->next = final;
 }
-return (*head);
+return (end);
 }
