@@ -3,6 +3,7 @@
 #undef h
 
 #include <stdarg.h>
+#include <stddef.h>
 
 /**
  * struct list_s - singly linked list
