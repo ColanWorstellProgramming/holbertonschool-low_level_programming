@@ -1,6 +1,6 @@
 #ifndef h
 #define h
-
+#undef h
 #include <stdarg.h>
 #include <stddef.h>
 #include <stdio.h>
