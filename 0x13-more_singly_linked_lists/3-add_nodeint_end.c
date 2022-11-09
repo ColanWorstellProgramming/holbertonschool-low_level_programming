@@ -32,6 +32,6 @@ while (end->next != NULL)
 	end = end->next;
 }
 end->next = final;
-return (*head);
 }
+return (*head);
 }
