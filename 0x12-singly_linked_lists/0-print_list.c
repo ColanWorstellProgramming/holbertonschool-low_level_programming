@@ -13,7 +13,6 @@ int num = 0;
 
 while (h)
 {
-
 	if (h->str == NULL)
 	{
 		printf("[0] (nil)");
@@ -24,7 +23,6 @@ while (h)
 		num++;
 		h = h->next;
 	}
-
 }
 return (num);
 }
