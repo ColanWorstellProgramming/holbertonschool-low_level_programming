@@ -17,9 +17,9 @@ return;
 
 while (head)
 {
-	final = head->next;
+	final = (*head);
+	(*head) = (*head)->next;
 	free(head);
-	head = final;
 }
 
 }
