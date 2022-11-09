@@ -21,6 +21,7 @@ else
 {
 printf("[0] (nil)\n");
 num++;
+h = h->next;
 }
 
 }
