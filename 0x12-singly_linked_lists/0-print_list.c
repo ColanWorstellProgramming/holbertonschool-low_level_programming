@@ -20,6 +20,7 @@ h = h->next;
 else
 {
 printf("[0] (nil)\n");
+num++;
 }
 
 }
