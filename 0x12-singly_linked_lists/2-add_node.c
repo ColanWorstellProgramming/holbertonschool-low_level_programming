@@ -9,8 +9,8 @@
 
 list_t *add_node(list_t **head, const char *str)
 {
-char copy;
-list_t final;
+char *copy;
+list_t *final;
 if (str == NULL)
 {
 return (NULL);
