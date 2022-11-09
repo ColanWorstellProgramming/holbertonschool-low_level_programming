@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * get_nodeint - function
+ * get_nodeint_at_index - function
  * @head: list var
  * @index: var
  * Return: n/a
