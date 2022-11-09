@@ -9,7 +9,7 @@
 
 list_t *add_node_end(list_t **head, const char *str)
 {
-char *copy;
+
 list_t *final, *end;
 
 if (str == NULL)
@@ -21,8 +21,8 @@ if (final == NULL)
 {
 return (NULL);
 }
-copy = strdup(str);
-if (copy == NULL)
+final->str = strdup(str);
+if (final->str == NULL)
 {
 free(final);
 return (NULL);
