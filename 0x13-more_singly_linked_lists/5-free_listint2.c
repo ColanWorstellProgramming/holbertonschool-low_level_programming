@@ -19,7 +19,7 @@ while (*head)
 {
 	final = (*head);
 	(*head) = (*head)->next;
-	free(head);
+	free(final);
 }
 
 }
