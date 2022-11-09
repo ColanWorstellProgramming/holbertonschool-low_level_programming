@@ -6,7 +6,7 @@
  * Return: n/a
  */
 
-void pop_listint(listint_t *head)
+void pop_listint(listint_t **head)
 {
 listint_t *final;
 int x;

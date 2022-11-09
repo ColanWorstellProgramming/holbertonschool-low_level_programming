@@ -15,7 +15,7 @@ if (head == NULL)
 return;
 }
 
-while (head)
+while (*head)
 {
 	final = (*head);
 	(*head) = (*head)->next;
