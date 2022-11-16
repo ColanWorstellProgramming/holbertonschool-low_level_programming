@@ -18,6 +18,11 @@ if (new == NULL)
 return (NULL);
 }
 
+if (*head == NULL)
+{
+return (NULL);
+}
+
 while(temp->next != NULL)
 {
 temp = temp->next;
