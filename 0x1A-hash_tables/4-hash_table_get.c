@@ -24,7 +24,7 @@ if (index >= ht->size)
 return (NULL);
 }
 
-node = ht->array[index];
+hn = ht->array[index];
 
 while (hn && strcmp(hn->key, key) != 0)
 {
