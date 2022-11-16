@@ -15,14 +15,19 @@ unsigned long int i;
 
 if (size == 0)
 {
-
 return (NULL);
-
 }
 
 ht = malloc(sizeof(hash_table_t));
+if (ht == NULL)
+{
+return (NULL);
+}
 hn = malloc(sizeof(hash_node_t *) * size);
-
+if (hn == NULL)
+{
+return (NULL);
+}
 for (i = 0; i < size; i++)
 {
 hn[i] = NULL;
