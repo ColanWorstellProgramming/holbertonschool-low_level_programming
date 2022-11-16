@@ -15,6 +15,7 @@ size_t max;
 while (h)
 {
 count++;
+h = h->next;
 }
 max = count;
 while (count > 0)
