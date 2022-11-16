@@ -20,7 +20,12 @@ return (NULL);
 
 if (*head == NULL)
 {
-return (NULL);
+
+new->n = n;
+new->prev = NULL;
+new->next = NULL;
+*head = new;
+return (new);
 }
 
 while(temp->next != NULL)
