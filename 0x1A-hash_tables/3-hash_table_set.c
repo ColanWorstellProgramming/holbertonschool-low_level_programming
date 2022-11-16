@@ -28,7 +28,7 @@ for (i = index; ht->array[i]; i++)
 if (strcmp(ht->array[i]->key, key) == 0)
 {
 free(ht->array[i]->value);
-ht->array[i]->value = value_copy;
+ht->array[i]->value = keycopy;
 return (1);
 }
 }
@@ -44,7 +44,7 @@ if (new->key == NULL)
 free(new);
 return (0);
 }
-new->value = value_copy;
+new->value = keycopy;
 new->next = ht->array[index];
 ht->array[index] = new;
 
