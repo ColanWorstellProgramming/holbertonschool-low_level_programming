@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * get_dlistint_at_index - main function
+ * get_dnodeint_at_index - main function
  * @head: var
  * @index: var
  * Return: dlistint_t
@@ -19,8 +19,11 @@ if (head == NULL)
 {
 return (NULL);
 }
+else
+{
 counter++;
 head = head->next;
+}
 }
 
 return (head);
