@@ -13,6 +13,13 @@ hash_table_t *ht;
 hash_node_t **hn;
 unsigned long int i;
 
+if (size == 0)
+{
+
+return (NULL);
+
+}
+
 ht = malloc(sizeof(hash_table_t));
 hn = malloc(sizeof(hash_node_t *) * size);
 
