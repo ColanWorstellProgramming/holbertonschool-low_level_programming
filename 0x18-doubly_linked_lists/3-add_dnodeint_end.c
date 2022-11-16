@@ -38,7 +38,5 @@ new->prev = temp;
 new->next = NULL;
 temp->next = new;
 
-
-
 return (new);
 }
