@@ -35,7 +35,6 @@ temp = temp->next;
 
 new->n = n;
 new->prev = temp;
-new->next = NULL;
 temp->next = new;
 
 
