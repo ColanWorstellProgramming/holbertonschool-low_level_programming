@@ -18,7 +18,7 @@ if (ht == NULL || key == NULL || *key == '\0' || value == NULL)
 return (0);
 }
 keycopy = strdup(value);
-if (value_copy == NULL)
+if (keycopy == NULL)
 {
 return (0);
 }
