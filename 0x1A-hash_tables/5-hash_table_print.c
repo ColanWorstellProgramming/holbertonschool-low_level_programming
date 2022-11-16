@@ -13,13 +13,15 @@ hash_node_t *hn;
 int flag = 0;
 
 if (!ht || !(ht->array))
-	return;
+{
+return;
+}
 printf("{");
 for (index = 0; index <= ht->size; index++)
 {
-	hn = ht->array[index];
-	while (hn != NULL)
-	{
+hn = ht->array[index];
+while (hn != NULL)
+{
 if (flag == 1)
 {
 printf(", ");
