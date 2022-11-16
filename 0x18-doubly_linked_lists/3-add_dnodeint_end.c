@@ -33,13 +33,11 @@ while (temp->next != NULL)
 temp = temp->next;
 }
 
-if (temp->next == NULL)
-{
 new->n = n;
-new->prev = temp->prev;
+new->prev = temp;
 new->next = NULL;
 temp->next = new;
-}
+
 
 *head = temp;
 
