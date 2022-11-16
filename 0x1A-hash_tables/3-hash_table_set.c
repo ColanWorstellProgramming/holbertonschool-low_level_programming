@@ -35,7 +35,7 @@ return (1);
 new = malloc(sizeof(hash_node_t));
 if (new == NULL)
 {
-free(value_copy);
+free(keycopy);
 return (0);
 }
 new->key = strdup(key);
