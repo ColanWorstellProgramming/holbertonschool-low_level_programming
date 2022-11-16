@@ -9,7 +9,7 @@
 size_t print_dlistint_backward(const dlistint_t *h)
 {
 
-size_t count = 0;
+size_t count = 1;
 
 if (!h)
 {
