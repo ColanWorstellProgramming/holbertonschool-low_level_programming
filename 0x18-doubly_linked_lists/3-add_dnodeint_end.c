@@ -39,7 +39,6 @@ new->next = NULL;
 temp->next = new;
 
 
-*head = temp;
 
 return (new);
 }
