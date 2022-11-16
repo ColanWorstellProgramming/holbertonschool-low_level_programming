@@ -21,7 +21,7 @@ while (h->next != NULL)
 h = h->next;
 count++;
 }
-while (count > 0)
+while (h)
 {
 printf("%d\n", h->n);
 h = h->prev;
